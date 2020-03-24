@@ -1,0 +1,50 @@
+body {
+    background: url("xbox.png");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Orbitron';
+}
+    
+html {
+    height: 100%;
+}
+hr.type_3 {
+    border: 0;
+    height: 25px;
+    background-image: url(https://www.formget.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2014/12/type_3.png.webp);
+    background-repeat: no-repeat;
+  
+    }
+
+    #first   {
+        border-left: 5px solid #48F625 ;
+        padding-left: 5px;
+    }
+
+
+    p {
+
+        font-family:'Exo' ;
+        padding-left: 10px;
+    }
+
+    .container {
+        background-color: grey;
+        border: 2px solid black;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      
+    }
+
+    .container h1 {
+        color: #48F625;
+
+    }
+
+    .container p {
+
+            font-family:'Exo' ;
+            padding-left: 10px;
+        
+
+    }

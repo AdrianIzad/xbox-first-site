@@ -1,0 +1,80 @@
+body {
+    background: url("xbox.png");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Orbitron';
+    padding-bottom: 10%;
+}
+
+html {
+    height: 100%;
+}
+
+.content {
+    text-align: center;
+    padding-top: 15%;
+    text-shadow: 0px 4px 3px #2BFF00,
+                 0px 8px 13px #26A20D,
+                 0px 18px 23px #1A4911;
+}       
+
+h1 {
+    font-family: 'Quantico';
+    font-weight: 700;
+    font-size: 4em;
+}
+
+h3 {
+    font-family: 'Orbitron';
+}
+
+hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0,2);
+}
+
+.first   {
+    border-left: 5px solid black ;
+    padding-left: 5px;
+}
+
+.imgp1 {
+    width: 550px;
+    height: 500px;
+}
+
+.title {
+    padding-top: 10%;
+    text-shadow: 0px 4px 3px #2BFF00,
+    0px 8px 13px #26A20D,
+    0px 18px 23px #1A4911;
+}
+
+.titleline {
+    width: 650px;
+    border: 1px solid green;
+  
+}
+
+#lefttext {
+    padding-top: 10px;
+}
+
+.fa, .fas {
+    font-size: 30px;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #ea1c2c;
+    
+}
+
+.imageEffect {
+    transition:transform 0.25s ease;
+}
+
+.imageEffect:hover {
+    -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.5);
+}
